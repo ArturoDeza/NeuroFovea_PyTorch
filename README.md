@@ -16,7 +16,7 @@ Generate a V1 metamer for the `512x512` image `10.png` with a center fixation, s
 $ python Metamer_Transform.py --image Dataset/1_color.png --scale 0.25 --color 1
 ```
 
-The paper "Emergent Properties of Foveated Perceptual Systems" of Deza & Konkle, 2020/2021 (https://arxiv.org/abs/2006.07991) that uses a foveated transform (with an exagerated distortion given the scaling factor set to `s=0.4`) was ran with the lua code, but current follow-up work has transitioned to this PyTorch version. After finally vetting the code, we've decide to release it to accelerate work on spatially-adaptive texture computation in humans and machines.
+The paper "Emergent Properties of Foveated Perceptual Systems" of Deza & Konkle, 2020/2021 (https://arxiv.org/abs/2006.07991) that uses a foveated transform (with an exagerated distortion given the scaling factor set to `s=0.4`) was ran with the lua code accessible here: https://github.com/ArturoDeza/NeuroFovea, but current and future follow-up work has transitioned to this PyTorch version. After finally vetting the code, we've decide to release it to accelerate work on spatially-adaptive texture computation in humans and machines.
 
 Please read our paper to learn more about visual metamerism: https://openreview.net/forum?id=BJzbG20cFQ
 
