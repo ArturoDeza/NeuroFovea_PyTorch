@@ -1,4 +1,4 @@
-<img src="https://github.com/ArturoDeza/NeuroFovea/blob/master/sample_gifs/Model_Diagram_New.png" width="900">
+<img src="https://github.com/ArturoDeza/NeuroFovea_PyTorch/blob/main/Metamer_Transform_Update.png" width="900">
 
 
 
