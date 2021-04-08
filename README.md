@@ -1,3 +1,7 @@
+<img src="https://github.com/ArturoDeza/NeuroFovea/blob/master/sample_gifs/Model_Diagram_New.png" width="900">
+
+
+
 # NeuroFovea_PyTorch
 An adapted version of the Metamer Foveation Transform code from Deza et al. ICLR 2019
 
