@@ -1,2 +1,38 @@
 # NeuroFovea_PyTorch
 An adapted version of the Metamer Foveation Transform code from Deza et al. ICLR 2019
+
+
+To complete the installation please run:
+
+```
+$ bash download_models_and_stimuli.sh
+```
+
+### Example code:
+
+Generate a V1 metamer for the `512x512` image `10.png` with a center fixation, specified by the rate of growth of the receptive field: `s=0.25`. Note: The approximate rendering time for a metamer should be around a second if you have your GPU on.
+
+```
+$ python Metamer_Transform.py --image Dataset/1_color.png --scale 0.25 --color 1
+```
+
+The paper "Emergent Properties of Foveated Perceptual Systems" of Deza & Konkle, 2020/2021 (https://arxiv.org/abs/2006.07991) that uses a foveated transform (with an exagerated distortion given the scaling factor set to `s=0.4`) was ran with the lua code, but current follow-up work has transitioned to this PyTorch version. After finally vetting the code, we've decide to release it to accelerate work on spatially-adaptive texture computation in humans and machines.
+
+Please read our paper to learn more about visual metamerism: https://openreview.net/forum?id=BJzbG20cFQ
+
+We hope this code and our paper can help researchers, scientists and engineers improve the use and design of metamer models that have potentially exciting applications in both computer vision and visual neuroscience.
+
+This code is free to use for Research Purposes, and if used/modified in any way please consider citing:
+
+```
+@inproceedings{
+deza2018towards,
+title={Towards Metamerism via Foveated Style Transfer},
+author={Arturo Deza and Aditya Jonnalagadda and Miguel P. Eckstein},
+booktitle={International Conference on Learning Representations},
+year={2019},
+url={https://openreview.net/forum?id=BJzbG20cFQ},
+}
+```
+
+Other inquiries: deza@mit.edu
