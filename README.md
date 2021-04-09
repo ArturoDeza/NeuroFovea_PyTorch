@@ -14,7 +14,7 @@ $ bash download_models_and_stimuli.sh
 
 ### Example code:
 
-Generate a V1 metamer for the `512x512` image `1.png` with a center fixation, specified by the rate of growth of the receptive field: `s=0.4`. Note: The approximate rendering time for a metamer should be around 1 second if you have your GPU on.
+Generate a foveated image for the `512x512` image `1.png` with a center fixation, specified by the rate of growth of the receptive field: `s=0.4`. Note: The approximate rendering time for a metamer should be around 1 second if you have your GPU on.
 
 ```
 $ python Metamer_Transform.py --image 1.png --scale 0.4 --reference 0
