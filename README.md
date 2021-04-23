@@ -22,6 +22,8 @@ $ python Metamer_Transform.py --image 1.png --scale 0.4 --reference 0
 
 The paper "Emergent Properties of Foveated Perceptual Systems" of Deza & Konkle, 2020/2021 (https://arxiv.org/abs/2006.07991) that uses a foveated transform (with an exagerated distortion given the scaling factor set to `s=0.4`) was ran with the lua code accessible here: https://github.com/ArturoDeza/NeuroFovea, but current and future follow-up work has transitioned to this PyTorch version. After finally vetting the code (and making sure both the lua + PyTorch versions produce the same outputs), we've decide to release it to accelerate work on spatially-adaptive (foveated) texture computation in humans and machines.
 
+The Foveated Texture Transform essentially computes log-polar + localized Adaptive Instance Normalization (See Huang & Belongie (ICCV, 2019); This code is thus an extension of: https://github.com/naoto0804/pytorch-AdaIN)
+
 Please read our paper to learn more about visual metamerism: https://openreview.net/forum?id=BJzbG20cFQ
 
 We hope this code and our paper can help researchers, scientists and engineers improve the use and design of metamer models that have potentially exciting applications in both computer vision and visual neuroscience.
